@@ -13,8 +13,8 @@ app.all('*', function(req, res, next) {
 // API Routes
 // app.get('/blah', routeHandler);
 
-app.set('port', process.env.PORT || 8000);
+app.set('port', process.env.PORT || 3000);
 
-app.listen(app.get('port'), function () {
+app.listen(3000, function () {
     console.log('Express server listening on port ' + app.get('port'));
 });
