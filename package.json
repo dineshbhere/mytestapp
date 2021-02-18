@@ -14,7 +14,7 @@
     "build": "ng build",
     "heroku-prebuild": "echo This runs before Heroku installs dependencies. just FYI, we will not use it",
     "heroku-postbuild": "ng build --prod",
-    "heroku-cleanup": "echo This runs after Heroku prunes and caches dependencies. just FYI, we will not use it", 
+    "heroku-cleanup": "echo This runs after Heroku prunes and caches dependencies. just FYI, we will not use it",
     "test": "ng test",
     "lint": "ng lint",
     "e2e": "ng e2e"
@@ -29,6 +29,7 @@
     "@angular/forms": "~11.2.0",
     "@angular/platform-browser": "~11.2.0",
     "@angular/platform-browser-dynamic": "~11.2.0",
+    "@ionic/angular-toolkit": "^3.1.0",
     "@angular/router": "~11.2.0",
     "@ionic/angular": "^5.5.2",
     "rxjs": "~6.6.0",
